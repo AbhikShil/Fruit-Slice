@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Fruit Slice Game</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1, user-scalable=yes">
+        <link rel="stylesheet" href="fruits.css">
+        <iframe width="0" height="0" src="http://youtube.com/watch?v=sHO8nV7BDok&name=Faded+Alan+Walker+Karaoke+With+Guide+Melody+Instrumental#gsc.tab=0" frameborder="0" allowfullscreen></iframe>
+    </head>
+    <body>
+        <div id='container'>
+            <div id="score">
+                Score:<span id="scorevalue">0</span>
+            </div>
+            <div id="lives">
+                
+            </div>
+            <div id="fruitcontainer">
+                <img id="fruit1" class="fruit">
+            </div>
+            <div id="info">
+                <p>Slice Them All!</p>
+            </div>
+            <div id="startorreset">
+                Start Game
+            </div>
+            <div id="gameover">
+                <p>Game Over!</p>
+                <p>Your Score Is : 20</p>
+            </div>
+        </div>
+        <audio id="slicesound">
+            <source src="audio/slicefruit.mp3">
+            <source src="audio/slicefruit.ogg">
+        </audio>
+        <audio id="back">
+            <source src="audio/background.mp3">
+            <source src="audio/background.ogg">
+        </audio>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+        <script src="fruits.js"></script>
+    </body>
+</html>
